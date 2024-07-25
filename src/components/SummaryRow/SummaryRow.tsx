@@ -23,7 +23,9 @@ export const SummaryRow = () => {
 
   return (
     <Box className={styles.summary_container}>
-      <Box>{t("itemsLeft", { items: activeItemsLength })}</Box>
+      <Box className={styles.summary_items}>
+        {t("itemsLeft", { items: activeItemsLength })}
+      </Box>
       <Box className={styles.tabs_container_desktop}>
         <TabsComponent />
       </Box>

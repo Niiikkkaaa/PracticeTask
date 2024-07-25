@@ -7,6 +7,10 @@
   justify-content: space-between;
 }
 
+.summary_items {
+  width: 120px;
+}
+
 @media screen and (max-width: 375px) {
   .tabs_container_desktop {
     display: none;
