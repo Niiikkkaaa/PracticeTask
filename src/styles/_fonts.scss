@@ -1,0 +1,23 @@
+
+
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local('Josefin Sans'),
+    url('../assets/fonts/JosefinSans-Regular.ttf') format('ttf'),
+    url('../assets/fonts/JosefinSans-Regular.woff') format('woff'),
+    url('../assets/fonts/JosefinSans-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 700;
+  src:
+    local('Josefin Sans'),
+    url('../assets/fonts/JosefinSans-SemiBold.ttf') format('ttf'),
+    url('../assets/fonts/JosefinSans-SemiBold.woff') format('woff'),
+    url('../assets/fonts/JosefinSans-SemiBold.woff2') format('woff2');
+}

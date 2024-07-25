@@ -1,0 +1,14 @@
+@import 'styles/variables';
+
+.summary_container {
+  display: flex;
+  padding: 15px 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 375px) {
+  .tabs_container_desktop {
+    display: none;
+  }
+}

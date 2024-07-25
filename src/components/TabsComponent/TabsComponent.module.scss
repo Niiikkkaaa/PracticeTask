@@ -1,0 +1,19 @@
+@import 'styles/variables';
+
+.tab {
+  margin-right: 40px !important;
+
+  &:last-child {
+    margin-right: 0px !important;
+  }
+}
+
+.active_tab {
+  color: $bright_blue !important;
+}
+
+@media screen and (max-width: 375px) {
+  .tab {
+    margin-right: 15px!important;
+  }
+}

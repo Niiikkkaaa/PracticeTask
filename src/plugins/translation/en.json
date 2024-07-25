@@ -1,0 +1,9 @@
+{
+  "logo": "To do",
+  "all": "All",
+  "active": "Active",
+  "completed": "Completed",
+  "clearCompleted": "Clear Completed",
+  "itemsLeft": "{{ items }} items left",
+  "placeholder": "Create a new todo..."
+}
